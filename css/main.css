@@ -1,0 +1,107 @@
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+}
+body{
+     font-family: "poppins", sans-serif;
+}
+img{
+     vertical-align: middle;
+     object-fit: cover;
+}
+.code-section{
+     padding: 121px 0;
+     background-image: url("../images/bg.svg");
+     background-repeat: no-repeat;
+     background-size: 100%;
+}
+.code{
+     margin: 0 auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 1260px;
+}
+.code-content{
+     width: 525px;
+}
+
+.code-title{
+     margin-bottom: 11px;
+     font-weight: 700;
+     font-size: 50px;
+     line-height: 55px;
+     letter-spacing: -0.520833px;
+     color: #FFFFFF;
+}
+.code-text{
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 26px;
+     color: #FFFFFF;
+}
+.code-form-part{
+     width: 540px;
+}
+.code-text-top{
+     margin-bottom: 24px;
+     padding: 17px 0;
+     background: #5E54A4;
+     box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+     border-radius: 10px;
+     width: 100%;
+     font-weight: 700;
+     font-size: 15px;
+     line-height: 26px;
+     text-align: center;
+     letter-spacing: 0.267857px;
+     color: #FFFFFF;
+}
+.form{
+     padding: 40px;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     background: #FFFFFF;
+     box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+     border-radius: 10px;
+}
+input{
+     margin-bottom: 20px;
+     padding: 15px 0 15px 32px;
+     background: #FFFFFF;
+     border: 1px solid #DEDEDE;
+     border-radius: 5px;
+     outline: none;
+     width: 100%;
+     color: #5E54A4;
+}
+input:focus{
+     border: 1px solid #5E54A4;
+}
+button{
+     width: 100%;
+     padding: 15px 0;
+     font-weight: 600;
+     font-size: 15px;
+     line-height: 26px;
+     letter-spacing: 1px;
+     background: #38CC8B;
+     box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+     border-radius: 5px;
+     border: none;
+     color: #FFFFFF;
+}
+.text-item{
+     font-weight: 500;
+font-size: 11px;
+line-height: 26px;
+text-align: center;
+color: #BAB7D4;
+}
+.span{
+     color: maroon;
+}
